@@ -29,7 +29,7 @@
 
 
 /* Header */
-.header{
+.header {
   background-color: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 
@@ -55,4 +55,84 @@ margin-right: 100px;
 border-radius: 46px;
 background-color: rgb(230, 83, 60);
 padding: 5px 10px;
+}
+
+/* Banner */
+.banner-details{
+  width: 460px;
+  height: 440px;
+  margin: 100px 20px 100px 150px;
+}
+.banner-title{
+font-size: 58px;
+font-weight: 900;
+}
+span{
+  font-family: cursive;
+}
+.d-link{
+  margin-top: 20px;
+}
+.join{
+  text-decoration: none;
+  background-color: rgb(230, 83, 60);
+  padding: 10px 30px;
+  border-radius: 46px;
+  margin-right: 20px;
+}
+.download{
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px 30px;
+  border-radius: 46px;
+}
+.img-1{
+  margin-left: 130px;
+}
+.free-workout{
+width: 193px;
+height: 98px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+margin-top: -480px;
+margin-left: 350px;
+}
+.free-workout h1{
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 15px;
+}
+.free-workout p {
+margin-left: 20px;
+ font-size: 13px;
+ font-weight: 400;
+ margin-top: 5px;
+}
+.video-tutoris{
+width: 193px;
+height: 98px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+margin-top: 200px;
+margin-left: 20px;
+}
+.ball{
+width: 40px;
+height: 40px;
+background-color: rgb(230, 83, 60);
+border-radius: 50%;
+margin-top: 30px;
+margin-left: 20px;
+}
+
+.video h1{
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 15px;
 }
