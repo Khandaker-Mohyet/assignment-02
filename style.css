@@ -122,8 +122,8 @@ margin-top: 200px;
 margin-left: 20px;
 }
 .ball{
-width: 40px;
-height: 40px;
+width: 30px;
+height: 30px;
 background-color: rgb(230, 83, 60);
 border-radius: 50%;
 margin-top: 30px;
@@ -135,4 +135,51 @@ margin-left: 20px;
   font-size: 30px;
   font-weight: 800;
   margin-top: 15px;
+}
+.video p {
+margin-left: 10px;
+ font-size: 13px;
+ font-weight: 400;
+ margin-bottom: 20px;
+}
+
+/* Change your habit */
+
+.div-change-habit{
+  max-width: 570px;
+  margin: 0 auto;
+}
+.habit-title{
+  text-align: center;
+}
+.habit-description{
+  text-align: center;
+}
+.habit-img{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  
+}
+
+.img-habit{
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 33px;
+}
+
+@media screen and (max-width: 576px) {
+  .banner, .habit-img{
+    flex-direction: column;
+  }
+  .banner-details{
+    margin-left: 50px;
+  }
+  .div-change-habit{
+    margin-top: 200px;
+  }
+  
+  .img-habit{
+    margin-left: 135px;
+  }
 }
