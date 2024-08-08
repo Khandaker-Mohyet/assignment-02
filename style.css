@@ -145,7 +145,7 @@ margin-left: 10px;
 
 /* Change your habit */
 .one{
-  background: rgb(34, 34, 34);
+  /* background: rgb(34, 34, 34); */
 }
 
 .div-change-habit{
@@ -181,6 +181,8 @@ margin: 0 auto;
 margin-top: 70px;
 bottom: 2px solid white;
 backdrop-filter: blur(2px) white;
+background: rgb(34, 34, 34);
+border-radius: 20px;
 }
 .two-div-one{
   margin-left: 30px;
@@ -199,11 +201,17 @@ width: 366px;
 height: 312px;
 border-radius: 18px;
 }
+.calculater{
+  margin-left: 350px;
+  margin-right: 270px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
 .calculater-title{
-  text-align: center;
+  text-align: left;
 }
 .calculater-description{
-  text-align: center;
+  text-align: left;
 }
 
 table{
@@ -218,7 +226,9 @@ td, th{
   padding: 10px;
   font-size: 15px;
 }
-
+.calculater-div{
+  background: rgb(34, 34, 34);
+}
 .calculater-chart{
   margin-left: 120px;
   margin-top: 50px;
@@ -245,8 +255,17 @@ border-radius: 46px;
 background-color: rgb(230, 83, 60);
 padding: 10px 20px;
 margin-top: 20px;
+margin-bottom: 50px;
 }
-
+/* Four */
+.four h1{
+  text-align: center;
+  margin-top: 50px;
+}
+.four p{
+ text-align: center;
+ margin-bottom: 50px;
+}
 #img-one{
   background-image: url(images/trainer1.png);
   width: 100%;
@@ -295,6 +314,9 @@ margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+  background: rgb(34, 34, 34);
+  padding: 20px;
+  border-radius: 10px;
 }
 .all-img h4{
   margin-top: 180px;
