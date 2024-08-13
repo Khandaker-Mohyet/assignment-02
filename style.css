@@ -22,7 +22,10 @@
   display: flex;
 }
 
-
+body{
+  max-width: 1300px;
+  margin: 0 auto;
+}
 
 
 
@@ -51,16 +54,18 @@ margin-right: 100px;
   text-decoration: none;
   margin-right: 30px;
 }
-.sircel{
-box-sizing: border-box;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 39px;
 
-}
 #home {
 border-radius: 46px;
 background-color: rgb(230, 83, 60);
 padding: 5px 10px;
+}
+.sircel{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 39px;
 }
 
 /* Banner */
@@ -160,9 +165,7 @@ margin-left: 10px;
   max-width: 570px;
   margin: 0 auto;
 }
-#habit{
-  font-size: 48px;
-}
+
 .habit-title{
   text-align: center;
 }
@@ -194,6 +197,9 @@ bottom: 2px solid white;
 backdrop-filter: blur(2px) white;
 background: rgb(34, 34, 34);
 border-radius: 20px;
+}
+#habit{
+  font-size: 48px;
 }
 .two-div-one{
   margin-left: 30px;
@@ -245,21 +251,23 @@ td{
   background: rgb(34, 34, 34);
 }
 .calculater-chart{
-  margin-left: 120px;
+  padding-left: 120px;
   margin-top: 50px;
-  width: 50%;
+  width: 43%;
+  /* border: 2px solid white; */
 }
 .calcuate-bmi{
-  width: 50%;
+  width: 40%;
   margin-top: 50px;
+  /* border: 2px solid white; */
 }
 .input{
 display: grid;
-grid-template-columns: repeat(2, 280px);
+grid-template-columns: repeat(2, 250px);
 gap: 5px;
 }
 #factor{
-  width: 530px;
+  width: 470px;
 }
 .input input{
 padding: 12px 15px 12px 15px;
@@ -385,30 +393,46 @@ background: rgb(34, 34, 34);
   }
   .two{
     border: 2px solid white;
+    height: auto;
   }
+  #habit{
+  font-size: 32px;
+ }
+ 
   .two-div-two{
     margin: 20px;
   }
   .calculater{
-    margin-top: 400px;
-  }
+  margin-left: 50px;
+  width: 450px;
+}
   .calculater-chart{
-    width: 100%;
-  }.calcuate-bmi{
-    margin: 10px;
+    margin-left: 30px;
+    width: 470px;
+    padding: 0;
+  }
+  .calcuate-bmi{
+    width: 90%;
+    margin: 0 auto;
+  }
+  #factor{
+    width: 470px;
   }
   .all-img{
     grid-template-columns: repeat(1, 1fr);
-    height: 250px;
+    height: auto;
     width: 250px;
   }
   .noen{
     display: none;
   }
   footer{
-    margin-top: 800px;
+    /* margin-top: 800px; */
   }
   .fit{
     margin-left: 30px;
+  }
+  .f-div-one p {
+    width: 420px;
   }
 }
