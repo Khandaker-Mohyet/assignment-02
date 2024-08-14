@@ -23,7 +23,7 @@
 }
 
 body{
-  max-width: 1300px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -371,6 +371,8 @@ background: rgb(34, 34, 34);
   text-align: center;
   padding-bottom: 20px;
 }
+
+
 @media screen and (max-width: 576px) {
   .banner, 
   .habit-img, 
@@ -379,6 +381,20 @@ background: rgb(34, 34, 34);
   footer, 
   .f-div-two{
     flex-direction: column;
+  }
+  .sircel{
+    display: none;
+  }
+  .fitness{
+    margin-left: -30px;
+  }
+  .fa-solid{
+    margin-left: 300px;
+  }
+  
+  .fa-bars{
+    color: white;
+    width: 1500px;
   }
   .banner-details{
     margin-left: 50px;
@@ -394,13 +410,20 @@ background: rgb(34, 34, 34);
   .two{
     border: 2px solid white;
     height: auto;
+    width: 410px;
   }
   #habit{
   font-size: 32px;
  }
- 
+  .two-div-one{
+    width: 350px;
+  }
   .two-div-two{
     margin: 20px;
+  }
+  .join-responcive{
+    display: flex;
+    justify-content: center;
   }
   .calculater{
   margin-left: 50px;
@@ -434,5 +457,9 @@ background: rgb(34, 34, 34);
   }
   .f-div-one p {
     width: 420px;
+  }
+  .margin-p{
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
